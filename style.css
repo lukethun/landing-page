@@ -154,6 +154,27 @@ h1{
 }
 
 #quote-sign{
-    display: block;
-    justify-content: flex-end;
+    width: 810px;
+    text-align: right;
+}
+
+.sign-up-section{
+    background-color: #3882F6;
+    margin: 100px 250px;
+    padding: 50px 75px;
+    border-radius: 8px;
+}
+
+.call-to-action{
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.sign-up-text, .call-to-action{
+    color: #F9FAF8;
+}
+
+.sign-up-button{
+    display: flex;
+    justify-self: flex-end;
 }
